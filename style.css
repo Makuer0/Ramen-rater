@@ -1,0 +1,78 @@
+body{
+    background-color: antiquewhite;
+}
+
+#title{
+    background-color: black;
+    color:white;
+   text-align: center;
+   
+}
+img{
+border-radius: 50%;
+width: 150px;
+height: 150px;
+object-fit: cover;
+}
+#ramen-menu{
+ margin-top: 0;
+display: flex;
+justify-content:center;
+flex-direction: row;
+height: 20vh;
+gap: 10px;
+object-fit: cover;
+}
+
+#ramen-details{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top:50px;
+ 
+   
+}
+
+#ramen-details{
+    display: none;
+flex-direction: column;
+align-items: center;
+}
+
+
+#ramen-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{
+font-size: 1.5rem;
+font-weight: bolder;
+
+}
+
+input{
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 1rem;
+}
+
+button{
+    padding: 20px;
+    border-radius: 30px;
+    width: 150px;
+    background-color: rgb(136, 201, 40);
+    color: rgb(17, 15, 15);
+    border: 1px solid;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: greenyellow;
+}
+button:active{
+    background-color: rgb(51, 87, 2);
+}
